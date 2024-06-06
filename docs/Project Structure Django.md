@@ -1,5 +1,8 @@
-*** Django project structure for webapp ***
-*** Django version: Django==5.0.6 ***
+***Django project structure for Web Application***
+
+***Django version: Django==5.0.6***
+
+Please follow the following folder structure for the django project
 
     webserver/
     ├── deployments/                        # Isolate Dockerfiles and docker-compose files here.
