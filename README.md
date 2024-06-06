@@ -1,30 +1,6 @@
 ## Python environment setup guidelines
 ### Python3.7 or lastest stable version (eg: python3.12)
 ### django 5.0.4 or latest stable version (eg: Django==5.0.6)
-### Use the following project structure for the new project
-    webserver/
-    ├── manage.py
-    ├── config.json             
-    ├── requirements.txt        
-    ├── README.md               
-    ├── LICENSE                 
-    |── .gitignore         
-    ├── webserver/
-    │   ├── __init__.py
-    │   ├── asgi.py
-    │   ├─ settings.py
-    │   ├─ urls.py
-    │   ├── wsgi.py
-    ├── auth_app/
-        ├── migrations/
-        │   └── __init__.py
-        ├── __init__.py
-        ├── admin.py
-        ├── apps.py
-        ├── models.py
-        ├── tests.py
-        ├── urls.py
-        └── views.py
 
 ### Strictly follow the python pep8 styling
      Recommanded: Use line length of 100 chars instead of 79
